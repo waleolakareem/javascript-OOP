@@ -11,7 +11,10 @@ const book1 = {
   getSummary: function(){
     return this.title + " was written by " + this.author + " in 2013";
   }
-}
+};
 
 console.log(book1.getSummary());
 
+//See all the keys and values
+// console.log(Object.values(book1));
+// console.log(Object.keys(book1));
